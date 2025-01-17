@@ -1,0 +1,49 @@
+# Python-related
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+*.env
+*.venv
+
+# Django-related
+db.sqlite3
+/staticfiles/
+media/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+
+# Logs and debug files
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Coverage and testing
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+.cache
+.pytest_cache/
+
+# Docker-related
+*.dockerignore
+
+# Node and frontend (if applicable)
+node_modules/
+dist/
+
+# Git-related
+*.lock
+*.bak
+*.orig
